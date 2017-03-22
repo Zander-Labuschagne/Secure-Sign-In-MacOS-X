@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF36DC271BFE086100C3EB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DC261BFE086100C3EB9C /* AppDelegate.swift */; };
+		CF36DC291BFE086100C3EB9C /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DC281BFE086100C3EB9C /* MainWindow.swift */; };
+		CF36DC2B1BFE086100C3EB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF36DC2A1BFE086100C3EB9C /* Assets.xcassets */; };
+		CF36DC2E1BFE086100C3EB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF36DC2C1BFE086100C3EB9C /* Main.storyboard */; };
+		CF36DC391BFE086100C3EB9C /* Secure_Sign_InTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DC381BFE086100C3EB9C /* Secure_Sign_InTests.swift */; };
+		CF36DC441BFE086100C3EB9C /* Secure_Sign_InUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DC431BFE086100C3EB9C /* Secure_Sign_InUITests.swift */; };
+		CF510CA11D70B3F2000B492B /* cryogen_blue_portrait_light_theme.png in Resources */ = {isa = PBXBuildFile; fileRef = CF510CA01D70B3F2000B492B /* cryogen_blue_portrait_light_theme.png */; };
+		CFDAF1631BFFB25400610603 /* OSDOutputWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDAF1621BFFB25400610603 /* OSDOutputWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF36DC351BFE086100C3EB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF36DC1B1BFE086100C3EB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF36DC221BFE086100C3EB9C;
+			remoteInfo = "Secure Sign In";
+		};
+		CF36DC401BFE086100C3EB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF36DC1B1BFE086100C3EB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF36DC221BFE086100C3EB9C;
+			remoteInfo = "Secure Sign In";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF36DC231BFE086100C3EB9C /* Secure Sign In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Sign In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36DC261BFE086100C3EB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF36DC281BFE086100C3EB9C /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		CF36DC2A1BFE086100C3EB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF36DC2D1BFE086100C3EB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF36DC2F1BFE086100C3EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF36DC341BFE086100C3EB9C /* Secure Sign InTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secure Sign InTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36DC381BFE086100C3EB9C /* Secure_Sign_InTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secure_Sign_InTests.swift; path = "Secure Sign InTests/Secure_Sign_InTests.swift"; sourceTree = SOURCE_ROOT; };
+		CF36DC3A1BFE086100C3EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF36DC3F1BFE086100C3EB9C /* Secure Sign InUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secure Sign InUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36DC431BFE086100C3EB9C /* Secure_Sign_InUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secure_Sign_InUITests.swift; sourceTree = "<group>"; };
+		CF36DC451BFE086100C3EB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF36DC511BFE08E100C3EB9C /* Secure Sign In.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Secure Sign In.entitlements"; sourceTree = "<group>"; };
+		CF493EDB1C05D8BB00C0E31B /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		CF510CA01D70B3F2000B492B /* cryogen_blue_portrait_light_theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cryogen_blue_portrait_light_theme.png; path = "Secure Sign In/cryogen_blue_portrait_light_theme.png"; sourceTree = "<group>"; };
+		CFDAF1621BFFB25400610603 /* OSDOutputWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSDOutputWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF36DC201BFE086100C3EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC311BFE086100C3EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC3C1BFE086100C3EB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF36DC1A1BFE086100C3EB9C = {
+			isa = PBXGroup;
+			children = (
+				CF510CA01D70B3F2000B492B /* cryogen_blue_portrait_light_theme.png */,
+				CF493EDB1C05D8BB00C0E31B /* Script.sh */,
+				CF36DC251BFE086100C3EB9C /* Secure Sign In */,
+				CF36DC371BFE086100C3EB9C /* Secure Sign InTests */,
+				CF36DC421BFE086100C3EB9C /* Secure Sign InUITests */,
+				CF36DC241BFE086100C3EB9C /* Products */,
+			);
+			sourceTree = "<group>";
+			tabWidth = 1;
+			usesTabs = 1;
+		};
+		CF36DC241BFE086100C3EB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DC231BFE086100C3EB9C /* Secure Sign In.app */,
+				CF36DC341BFE086100C3EB9C /* Secure Sign InTests.xctest */,
+				CF36DC3F1BFE086100C3EB9C /* Secure Sign InUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF36DC251BFE086100C3EB9C /* Secure Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DC511BFE08E100C3EB9C /* Secure Sign In.entitlements */,
+				CF36DC261BFE086100C3EB9C /* AppDelegate.swift */,
+				CF36DC281BFE086100C3EB9C /* MainWindow.swift */,
+				CFDAF1621BFFB25400610603 /* OSDOutputWindow.swift */,
+				CF36DC381BFE086100C3EB9C /* Secure_Sign_InTests.swift */,
+				CF36DC2A1BFE086100C3EB9C /* Assets.xcassets */,
+				CF36DC2C1BFE086100C3EB9C /* Main.storyboard */,
+				CF36DC2F1BFE086100C3EB9C /* Info.plist */,
+			);
+			path = "Secure Sign In";
+			sourceTree = "<group>";
+		};
+		CF36DC371BFE086100C3EB9C /* Secure Sign InTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DC3A1BFE086100C3EB9C /* Info.plist */,
+			);
+			path = "Secure Sign InTests";
+			sourceTree = "<group>";
+		};
+		CF36DC421BFE086100C3EB9C /* Secure Sign InUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DC431BFE086100C3EB9C /* Secure_Sign_InUITests.swift */,
+				CF36DC451BFE086100C3EB9C /* Info.plist */,
+			);
+			path = "Secure Sign InUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF36DC221BFE086100C3EB9C /* Secure Sign In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36DC481BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign In" */;
+			buildPhases = (
+				CF36DC1F1BFE086100C3EB9C /* Sources */,
+				CF36DC201BFE086100C3EB9C /* Frameworks */,
+				CF36DC211BFE086100C3EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secure Sign In";
+			productName = "Secure Sign In";
+			productReference = CF36DC231BFE086100C3EB9C /* Secure Sign In.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF36DC331BFE086100C3EB9C /* Secure Sign InTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36DC4B1BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign InTests" */;
+			buildPhases = (
+				CF36DC301BFE086100C3EB9C /* Sources */,
+				CF36DC311BFE086100C3EB9C /* Frameworks */,
+				CF36DC321BFE086100C3EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF36DC361BFE086100C3EB9C /* PBXTargetDependency */,
+			);
+			name = "Secure Sign InTests";
+			productName = "Secure Sign InTests";
+			productReference = CF36DC341BFE086100C3EB9C /* Secure Sign InTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF36DC3E1BFE086100C3EB9C /* Secure Sign InUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF36DC4E1BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign InUITests" */;
+			buildPhases = (
+				CF36DC3B1BFE086100C3EB9C /* Sources */,
+				CF36DC3C1BFE086100C3EB9C /* Frameworks */,
+				CF36DC3D1BFE086100C3EB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF36DC411BFE086100C3EB9C /* PBXTargetDependency */,
+			);
+			name = "Secure Sign InUITests";
+			productName = "Secure Sign InUITests";
+			productReference = CF36DC3F1BFE086100C3EB9C /* Secure Sign InUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF36DC1B1BFE086100C3EB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cryon Software";
+				TargetAttributes = {
+					CF36DC221BFE086100C3EB9C = {
+						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					CF36DC331BFE086100C3EB9C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CF36DC221BFE086100C3EB9C;
+					};
+					CF36DC3E1BFE086100C3EB9C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CF36DC221BFE086100C3EB9C;
+					};
+				};
+			};
+			buildConfigurationList = CF36DC1E1BFE086100C3EB9C /* Build configuration list for PBXProject "Secure Sign In" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF36DC1A1BFE086100C3EB9C;
+			productRefGroup = CF36DC241BFE086100C3EB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF36DC221BFE086100C3EB9C /* Secure Sign In */,
+				CF36DC331BFE086100C3EB9C /* Secure Sign InTests */,
+				CF36DC3E1BFE086100C3EB9C /* Secure Sign InUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF36DC211BFE086100C3EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF510CA11D70B3F2000B492B /* cryogen_blue_portrait_light_theme.png in Resources */,
+				CF36DC2B1BFE086100C3EB9C /* Assets.xcassets in Resources */,
+				CF36DC2E1BFE086100C3EB9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC321BFE086100C3EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC3D1BFE086100C3EB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF36DC1F1BFE086100C3EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDAF1631BFFB25400610603 /* OSDOutputWindow.swift in Sources */,
+				CF36DC291BFE086100C3EB9C /* MainWindow.swift in Sources */,
+				CF36DC271BFE086100C3EB9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC301BFE086100C3EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36DC391BFE086100C3EB9C /* Secure_Sign_InTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF36DC3B1BFE086100C3EB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF36DC441BFE086100C3EB9C /* Secure_Sign_InUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF36DC361BFE086100C3EB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF36DC221BFE086100C3EB9C /* Secure Sign In */;
+			targetProxy = CF36DC351BFE086100C3EB9C /* PBXContainerItemProxy */;
+		};
+		CF36DC411BFE086100C3EB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF36DC221BFE086100C3EB9C /* Secure Sign In */;
+			targetProxy = CF36DC401BFE086100C3EB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF36DC2C1BFE086100C3EB9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF36DC2D1BFE086100C3EB9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF36DC461BFE086100C3EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF36DC471BFE086100C3EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF36DC491BFE086100C3EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Secure Sign In/Secure Sign In.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign In/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryogen.Secure-Sign-In";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secure Sign In/Secure Sign In-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF36DC4A1BFE086100C3EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Secure Sign In/Secure Sign In.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign In/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryogen.Secure-Sign-In";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secure Sign In/Secure Sign In-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CF36DC4C1BFE086100C3EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign InTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryon.Secure-Sign-InTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secure Sign In.app/Contents/MacOS/Secure Sign In";
+			};
+			name = Debug;
+		};
+		CF36DC4D1BFE086100C3EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign InTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryon.Secure-Sign-InTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secure Sign In.app/Contents/MacOS/Secure Sign In";
+			};
+			name = Release;
+		};
+		CF36DC4F1BFE086100C3EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign InUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryon.Secure-Sign-InUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Secure Sign In";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF36DC501BFE086100C3EB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Secure Sign InUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cryon.Secure-Sign-InUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Secure Sign In";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF36DC1E1BFE086100C3EB9C /* Build configuration list for PBXProject "Secure Sign In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36DC461BFE086100C3EB9C /* Debug */,
+				CF36DC471BFE086100C3EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF36DC481BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36DC491BFE086100C3EB9C /* Debug */,
+				CF36DC4A1BFE086100C3EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF36DC4B1BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign InTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36DC4C1BFE086100C3EB9C /* Debug */,
+				CF36DC4D1BFE086100C3EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF36DC4E1BFE086100C3EB9C /* Build configuration list for PBXNativeTarget "Secure Sign InUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF36DC4F1BFE086100C3EB9C /* Debug */,
+				CF36DC501BFE086100C3EB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF36DC1B1BFE086100C3EB9C /* Project object */;
+}
