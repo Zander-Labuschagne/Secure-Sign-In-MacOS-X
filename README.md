@@ -9,3 +9,27 @@ The logo and name on the application comes from an iWorks template, it is not a 
 E-Mail: ZANDER.LABUSCHAGNE@PROTONMAIL.CH
 
 Copyright (C) 2017 Zander Labuschagne. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+                  ▄█▀█▀█▄ 
+　　　　　　　　▄█▀　　█　　▀█▄ 
+　　　　　　　▄█▀　　　　　　　▀█▄ 
+　　　　　　　█　　　　　　　　　█ 
+　　　　　　　█　　　　　　　　　█ 
+　　　　　　　▀█▄▄　　█　　　▄█▀ 
+　　　　　　　　█　　▄▀▄　 　█ 
+　　　　　　　　█　▀　　　▀ 　█ 
+　　　　　　　　█　　　　　　　█ 
+　　　　　　　　█　　　　　　　█ 
+　　　　　　　　█　　　　 　　 █ 
+　　　　　　　　█　　　　　　　█ 
+　　　　　　　　█　　　　　　　█ 
+　  　　▄█▀▀█▄█　　　　　　　█▄█▀█▄ 
+　▄█▀▀　　　　▀　　　　　　　　　　▀▀█ 
+█▀　　　　　　　　　　　　　　　　　　　▀█ 
+█　　　　　　　　　　　　　　　　　　　　　█ 
+█　　　　　　　　　　　▄█▄　　　　　　　　█ 
+▀█　　　　　　　　　█▀　▀█　　　　　　　█▀ 
+　▀█▄　　　　　█▀　　 　▀█　　　　　▄█▀ 
+　　　▀█▄▄▄█▀　　　　　   　▀█▄▄▄█▀ 
+
+
+***************************THIS IS BETTER FOR MAC USERS*******************************************
